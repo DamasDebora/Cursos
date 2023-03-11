@@ -285,3 +285,17 @@ body{
     opacity: 1;
     transition: .3s;
 }
+
+[data-semana]::after{
+    display: inline-block;
+    content: '';
+    width: 6px;
+    height: 6px;
+    background: #e54;
+    border-radius: 50%;
+    margin-left: 4px;
+
+}
+[data-semana].aberto::after{
+    background: #3f4;
+}
